@@ -36,7 +36,7 @@
 
     function addCategory(){
         global $name;
-        $query="INSERT INTO category(NAME) VALUES('$name')";
+        $query=" INSERT INTO category(NAME) VALUES('$name')";
         Query($query);
     }
     function updateCategory($category_id){
